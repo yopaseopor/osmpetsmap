@@ -183,7 +183,7 @@ var config = {
 			group: 'Gos/Dog/Perro',
 			title: 'Sí/Yes',
 			query: '(nwr["dog"="yes"]({{bbox}});node(w););out meta;',
-			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
+			iconSrc: imgSrc + 'icones/dog_green.svg',
 			iconStyle: 'background-color:rgba(255,255,255,0.4)',
 style: function (feature) {
 				var key_regex = /^name$/
@@ -198,7 +198,7 @@ style: function (feature) {
 				});
 				var style = new ol.style.Style({
 					image: new ol.style.Icon({
-							src: imgSrc + 'icones/maxspeed_empty.svg',
+							src: imgSrc + 'icones/dog_green.svg',
 							scale:0.03
 						}),
 							text: new ol.style.Text({
@@ -220,7 +220,7 @@ style: function (feature) {
 			group: 'Gos/Dog/Perro',
 			title: 'No',
 			query: '(nwr["dog"="no"]({{bbox}});node(w););out meta;',
-			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
+			iconSrc: imgSrc + 'icones/dog_red.svg',
 			iconStyle: 'background-color:rgba(255,255,255,0.4)',
 style: function (feature) {
 				var key_regex = /^name$/
@@ -235,7 +235,7 @@ style: function (feature) {
 				});
 				var style = new ol.style.Style({
 					image: new ol.style.Icon({
-							src: imgSrc + 'icones/maxspeed_empty.svg',
+							src: imgSrc + 'icones/dog_red.svg',
 							scale:0.03
 						}),
 							text: new ol.style.Text({
@@ -257,7 +257,7 @@ style: function (feature) {
 			group: 'Gos/Dog/Perro',
 			title: 'Lligat/Atado/Leashed',
 			query: '(nwr["dog"="leashed"]({{bbox}});node(w););out meta;',
-			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
+			iconSrc: imgSrc + 'icones/dog_orange.svg',
 			iconStyle: 'background-color:rgba(255,255,255,0.4)',
 style: function (feature) {
 				var key_regex = /^name$/
@@ -272,7 +272,7 @@ style: function (feature) {
 				});
 				var style = new ol.style.Style({
 					image: new ol.style.Icon({
-							src: imgSrc + 'icones/maxspeed_empty.svg',
+							src: imgSrc + 'icones/dog_orange.svg',
 							scale:0.03
 						}),
 							text: new ol.style.Text({
@@ -294,7 +294,7 @@ style: function (feature) {
 			group: 'Gos/Dog/Perro',
 			title: 'Sense lligar/Sin atar/Unleashed',
 			query: '(nwr["dog"="unleashed"]({{bbox}});node(w););out meta;',
-			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
+			iconSrc: imgSrc + 'icones/dog_purple.svg',
 			iconStyle: 'background-color:rgba(255,255,255,0.4)',
 style: function (feature) {
 				var key_regex = /^name$/
@@ -309,7 +309,7 @@ style: function (feature) {
 				});
 				var style = new ol.style.Style({
 					image: new ol.style.Icon({
-							src: imgSrc + 'icones/maxspeed_empty.svg',
+							src: imgSrc + 'icones/dog_purple.svg',
 							scale:0.03
 						}),
 							text: new ol.style.Text({
@@ -331,7 +331,7 @@ style: function (feature) {
 			group: 'Gos/Dog/Perro',
 			title: 'Designat/Designado/Designated',
 			query: '(nwr["dog"="designated"]({{bbox}});node(w););out meta;',
-			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
+			iconSrc: imgSrc + 'icones/dog_turquoise.svg',
 			iconStyle: 'background-color:rgba(255,255,255,0.4)',
 style: function (feature) {
 				var key_regex = /^name$/
@@ -346,7 +346,7 @@ style: function (feature) {
 				});
 				var style = new ol.style.Style({
 					image: new ol.style.Icon({
-							src: imgSrc + 'icones/maxspeed_empty.svg',
+							src: imgSrc + 'icones/dog_turquoise.svg',
 							scale:0.03
 						}),
 							text: new ol.style.Text({
@@ -368,7 +368,7 @@ style: function (feature) {
 			group: 'Gos/Dog/Perro',
 			title: 'Permissiu/Permisivo/Permissive',
 			query: '(nwr["dog"="permissive"]({{bbox}});node(w););out meta;',
-			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
+			iconSrc: imgSrc + 'icones/dog_yellow.svg',
 			iconStyle: 'background-color:rgba(255,255,255,0.4)',
 style: function (feature) {
 				var key_regex = /^name$/
@@ -383,7 +383,7 @@ style: function (feature) {
 				});
 				var style = new ol.style.Style({
 					image: new ol.style.Icon({
-							src: imgSrc + 'icones/maxspeed_empty.svg',
+							src: imgSrc + 'icones/dog_yellow.svg',
 							scale:0.03
 						}),
 							text: new ol.style.Text({
@@ -405,7 +405,7 @@ style: function (feature) {
 			group: 'Gos/Dog/Perro',
 			title: 'Preguntant/Preguntando/On request',
 			query: '(nwr["dog"="on_request"]({{bbox}});node(w););out meta;',
-			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
+			iconSrc: imgSrc + 'icones/dog_brown.svg',
 			iconStyle: 'background-color:rgba(255,255,255,0.4)',
 style: function (feature) {
 				var key_regex = /^name$/
@@ -420,7 +420,7 @@ style: function (feature) {
 				});
 				var style = new ol.style.Style({
 					image: new ol.style.Icon({
-							src: imgSrc + 'icones/maxspeed_empty.svg',
+							src: imgSrc + 'icones/dog_brown.svg',
 							scale:0.03
 						}),
 							text: new ol.style.Text({
@@ -442,7 +442,7 @@ style: function (feature) {
 			group: 'Gos/Dog/Perro',
 			title: 'No info',
 			query: '(node[!dog][shop]({{bbox}});node[!dog][tourism]({{bbox}});node[!dog][amenity]({{bbox}});node[!wheelchair][dog]({{bbox}}););out meta;',
-			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
+			iconSrc: imgSrc + 'icones/dog_question.svg',
 			iconStyle: 'background-color:rgba(255,255,255,0.4)',
 style: function (feature) {
 				var key_regex = /^name$/
@@ -457,7 +457,7 @@ style: function (feature) {
 				});
 				var style = new ol.style.Style({
 					image: new ol.style.Icon({
-							src: imgSrc + 'icones/maxspeed_empty.svg',
+							src: imgSrc + 'icones/dog_question.svg',
 							scale:0.03
 						}),
 							text: new ol.style.Text({
