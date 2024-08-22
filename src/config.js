@@ -479,7 +479,7 @@ style: function (feature) {
 			group: 'Animals',
 			title: 'Veterinari/Veterinario/Veterinary',
 			query: '(nwr["amenity"="veterinary"]({{bbox}});node(w););out meta;',
-			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
+			iconSrc: imgSrc + 'icones/animal_veterinary.svg',
 			iconStyle: 'background-color:rgba(255,255,255,0.4)',
 style: function (feature) {
 				var key_regex = /^name$/
@@ -494,7 +494,7 @@ style: function (feature) {
 				});
 				var style = new ol.style.Style({
 					image: new ol.style.Icon({
-							src: imgSrc + 'icones/maxspeed_empty.svg',
+							src: imgSrc + 'icones/animal_veterinary.svg',
 							scale:0.03
 						}),
 							text: new ol.style.Text({
@@ -516,7 +516,7 @@ style: function (feature) {
 			group: 'Animals',
 			title: 'Hotel/Animal boarding',
 			query: '(nwr["amenity"="animal_boarding"]({{bbox}});node(w););out meta;',
-			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
+			iconSrc: imgSrc + 'icones/animal_boarding.svg',
 			iconStyle: 'background-color:rgba(255,255,255,0.4)',
 style: function (feature) {
 				var key_regex = /^name$/
@@ -531,7 +531,7 @@ style: function (feature) {
 				});
 				var style = new ol.style.Style({
 					image: new ol.style.Icon({
-							src: imgSrc + 'icones/maxspeed_empty.svg',
+							src: imgSrc + 'icones/animal_boarding.svg',
 							scale:0.03
 						}),
 							text: new ol.style.Text({
@@ -553,7 +553,7 @@ style: function (feature) {
 			group: 'Animals',
 			title: 'Botiga/Tienda/Shop',
 			query: '(nwr["shop"="pet"]({{bbox}});node(w););out meta;',
-			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
+			iconSrc: imgSrc + 'icones/animal_shop.svg',
 			iconStyle: 'background-color:rgba(255,255,255,0.4)',
 style: function (feature) {
 				var key_regex = /^name$/
@@ -568,7 +568,7 @@ style: function (feature) {
 				});
 				var style = new ol.style.Style({
 					image: new ol.style.Icon({
-							src: imgSrc + 'icones/maxspeed_empty.svg',
+							src: imgSrc + 'icones/animal_shop.svg',
 							scale:0.03
 						}),
 							text: new ol.style.Text({
@@ -590,7 +590,7 @@ style: function (feature) {
 			group: 'Animals',
 			title: 'Bosses excrements/Bolsas excrementos/Excrement bags',
 			query: '(nwr["amenity"="vending_machine"]["vending"="excrement_bags"]({{bbox}});node(w););out meta;',
-			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
+			iconSrc: imgSrc + 'icones/poo_bag.svg',
 			iconStyle: 'background-color:rgba(255,255,255,0.4)',
 style: function (feature) {
 				var key_regex = /^name$/
@@ -605,7 +605,7 @@ style: function (feature) {
 				});
 				var style = new ol.style.Style({
 					image: new ol.style.Icon({
-							src: imgSrc + 'icones/maxspeed_empty.svg',
+							src: imgSrc + 'icones/poo_bag.svg',
 							scale:0.03
 						}),
 							text: new ol.style.Text({
@@ -627,7 +627,7 @@ style: function (feature) {
 			group: 'Gos/Dog/Perro',
 			title: 'Parc/Parque/Park',
 			query: '(nwr["leisure"="dog_park"]({{bbox}});node(w););out meta;',
-			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
+			iconSrc: imgSrc + 'icones/dog_park.svg',
 			iconStyle: 'background-color:rgba(255,255,255,0.4)',
 style: function (feature) {
 				var key_regex = /^name$/
@@ -642,7 +642,7 @@ style: function (feature) {
 				});
 				var style = new ol.style.Style({
 					image: new ol.style.Icon({
-							src: imgSrc + 'icones/maxspeed_empty.svg',
+							src: imgSrc + 'icones/dog_park.svg',
 							scale:0.03
 						}),
 							text: new ol.style.Text({
