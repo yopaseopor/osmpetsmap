@@ -800,8 +800,8 @@ style: function (feature) {
 		//Mapcomplete dog-tourism
 		complete.append($('<a>').css('marginLeft', 5).attr({title: 'Perros en turismo', href: 'https://mapcomplete.org/index.html?z=' + view.getZoom() +'&lat='+ coordinateLL[1] +'&lon='+ coordinateLL[0] +'&userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fmoreaboutdogs_tourism.json&language=en#welcome', target: '_blank'}).html($('<img>').attr({src:'https://yopaseopor.github.io/osmpetsmap/src/img/icones/dog_purple.svg', height: 20, width: 20})));
 		
-		//Mapcomplete dog-leasure
-		complete.append($('<a>').css('marginLeft', 5).attr({title: 'Perros en ocio', href: 'https://mapcomplete.org/index.html?z=' + view.getZoom() +'&lat='+ coordinateLL[1] +'&lon='+ coordinateLL[0] +'&userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fmoreaboutdogs_leasure.json&language=en#welcome', target: '_blank'}).html($('<img>').attr({src:'https://yopaseopor.github.io/osmpetsmap/src/img/icones/dog_yellow.svg', height: 20, width: 20})));
+		//Mapcomplete dog-leisure
+		complete.append($('<a>').css('marginLeft', 5).attr({title: 'Perros en ocio', href: 'https://mapcomplete.org/index.html?z=' + view.getZoom() +'&lat='+ coordinateLL[1] +'&lon='+ coordinateLL[0] +'&userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fmoreaboutdogs_leisure.json&language=en#welcome', target: '_blank'}).html($('<img>').attr({src:'https://yopaseopor.github.io/osmpetsmap/src/img/icones/dog_yellow.svg', height: 20, width: 20})));
 		
 		var edit = $('<div>').html(config.i18n.editWith);
 		//@@ID editor
