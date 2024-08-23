@@ -788,40 +788,20 @@ style: function (feature) {
 		
 		
 		
-		//@@Mapcomplete direcciones
-		complete.append($('<a>').css('marginLeft', 5).attr({title: 'Direcciones', href: 'https://mapcomplete.org/index.html?z=' + view.getZoom() +'&lat='+ coordinateLL[1] +'&lon='+ coordinateLL[0] +'&userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fmoreaboutdogs_amenity&language=en#welcome', target: '_blank'}).html($('<img>').attr({src:'https://raw.githubusercontent.com/yopaseopor/mcquests/master/images/icones_adreces/casa_plena.svg', height: 20, width: 20})));
+		//@@Mapcomplete dog-amenity
+		complete.append($('<a>').css('marginLeft', 5).attr({title: 'Perros en servicios', href: 'https://mapcomplete.org/index.html?z=' + view.getZoom() +'&lat='+ coordinateLL[1] +'&lon='+ coordinateLL[0] +'&userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fmoreaboutdogs_amenity.json&language=en#welcome', target: '_blank'}).html($('<img>').attr({src:'https://yopaseopor.github.io/osmpetsmap/src/img/icones/dog_green.svg', height: 20, width: 20})));
 		
-		//Mapcomplete nombres antiguos
-		complete.append($('<a>').css('marginLeft', 5).attr({title: 'Nombres antiguos', href: 'https://mapcomplete.org/index.html?z=' + view.getZoom() +'&lat='+ coordinateLL[1] +'&lon='+ coordinateLL[0] +'&userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fturnbacktime.json&language=en#welcome', target: '_blank'}).html($('<img>').attr({src:'https://cdn.pixabay.com/photo/2016/12/20/05/24/store-1919713_960_720.png', height: 20, width: 20})));
+		//Mapcomplete dog-shop
+		complete.append($('<a>').css('marginLeft', 5).attr({title: 'Perros en tiendas', href: 'https://mapcomplete.org/index.html?z=' + view.getZoom() +'&lat='+ coordinateLL[1] +'&lon='+ coordinateLL[0] +'&userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fmoreaboutdogs_shop.json&language=en#welcome', target: '_blank'}).html($('<img>').attr({src:'https://yopaseopor.github.io/osmpetsmap/src/img/icones/dog_red.svg', height: 20, width: 20})));
 		
-		//OSM Hydrants
-		complete.append($('<a>').css('marginLeft', 5).attr({title: 'OSM Hydrants', href: 'https://www.osmhydrant.org/en/#zoom=' + view.getZoom() +'&lat='+ coordinateLL[1] +'&lon='+ coordinateLL[0], target: '_blank'}).html($('<img>').attr({src: imgSrc + 'icones_web/osmhydrant_logo.png', height: 20, width: 20})));
+		//Mapcomplete dog-office
+		complete.append($('<a>').css('marginLeft', 5).attr({title: 'Perros en oficinas', href: 'https://mapcomplete.org/index.html?z=' + view.getZoom() +'&lat='+ coordinateLL[1] +'&lon='+ coordinateLL[0] +'&userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fmoreaboutdogs_office.json&language=en#welcome', target: '_blank'}).html($('<img>').attr({src:'https://yopaseopor.github.io/osmpetsmap/src/img/icones/dog_orange.svg', height: 20, width: 20})));
 		
-		complete.append($('<a>').css('marginLeft', 5).attr({title: 'Mapcomplete hidrantes', href: 'https://mapcomplete.org/hailhydrant.html?z=' + view.getZoom() +'&lat='+ coordinateLL[1] +'&lon='+ coordinateLL[0] +'&language=en&background=osm', target: '_blank'}).html($('<img>').attr({src:'https://mapcomplete.org/assets/themes/hailhydrant/logo.svg', height: 20, width: 20})));
+		//Mapcomplete dog-tourism
+		complete.append($('<a>').css('marginLeft', 5).attr({title: 'Perros en turismo', href: 'https://mapcomplete.org/index.html?z=' + view.getZoom() +'&lat='+ coordinateLL[1] +'&lon='+ coordinateLL[0] +'&userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fmoreaboutdogs_tourism.json&language=en#welcome', target: '_blank'}).html($('<img>').attr({src:'https://yopaseopor.github.io/osmpetsmap/src/img/icones/dog_purple.svg', height: 20, width: 20})));
 		
-		//Mapcomplete cruces
-		complete.append($('<a>').css('marginLeft', 5).attr({title: 'Pasos peatones', href: 'https://mapcomplete.org/index.html?z=' + view.getZoom() +'&lat='+ coordinateLL[1] +'&lon='+ coordinateLL[0] +'&userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fcrossingtime.json&language=en#welcome', target: '_blank'}).html($('<img>').attr({src:'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S13.png', height: 20, width: 20})));
-		
-		//Mapcomplete basura
-		complete.append($('<a>').css('marginLeft', 5).attr({title: 'Basura y reciclaje', href: 'https://mapcomplete.org/waste.html?z=' + view.getZoom() +'&lat='+ coordinateLL[1] +'&lon='+ coordinateLL[0] , target: '_blank'}).html($('<img>').attr({src:'https://mapcomplete.org/assets/layers/recycling/recycling-14.svg', height: 20, width: 20})));
-		
-		//Mapcomplete survey_date
-		complete.append($('<a>').css('marginLeft', 5).attr({title: 'Validation data', href: 'https://pietervdvn.github.io/mc/legacy/0.27.4/theme.html?z=' + view.getZoom() +'&lat='+ coordinateLL[1] +'&lon='+ coordinateLL[0] +'&userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Ftestcheckdate.json&language=en#welcome', target: '_blank'}).html($('<img>').attr({src:'https://raw.githubusercontent.com/yopaseopor/mcquests/master/images/icones/mc_checkdate.svg', height: 20, width: 20})));
-		
-		//Mapcomplete eat & drink
-		complete.append($('<a>').css('marginLeft', 5).attr({title: 'Eat & drink', href: 'https://mapcomplete.org/index.html?z=' + view.getZoom() +'&lat='+ coordinateLL[1] +'&lon='+ coordinateLL[0] +'&userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Featdrink.json&language=en#welcome', target: '_blank'}).html($('<img>').attr({src:'https://raw.githubusercontent.com/yopaseopor/osmeatdrinkmap/main/src/img/icones/eat_drink.svg', height: 20, width: 20})));
-		
-				//Mapcomplete dietes
-		complete.append($('<a>').css('marginLeft', 5).attr({title: 'Dietas', href: 'https://mapcomplete.org/index.html?z=' + view.getZoom() +'&lat='+ coordinateLL[1] +'&lon='+ coordinateLL[0] +'&userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fdiets.json&language=en#welcome', target: '_blank'}).html($('<img>').attr({src:'https://raw.githubusercontent.com/yopaseopor/osmeatdrinkmap/main/src/img/icones_web/osmeatdrink_logo.svg', height: 20, width: 20})));
-		
-				//Mapcomplete parques
-		complete.append($('<a>').css('marginLeft', 5).attr({title: 'Parques infantiles', href: 'https://mapcomplete.org/index.html?z=' + view.getZoom() +'&lat='+ coordinateLL[1] +'&lon='+ coordinateLL[0] +'&userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fplayground_types.json&language=en#welcome', target: '_blank'}).html($('<img>').attr({src:'https://wiki.openstreetmap.org/w/images/3/31/Playground-16.svg', height: 20, width: 20})));
-		
-		//Mapcomplete cambiadores
-		complete.append($('<a>').css('marginLeft', 5).attr({title: 'Cambiadores', href: 'https://mapcomplete.org/index.html?z=' + view.getZoom() +'&lat='+ coordinateLL[1] +'&lon='+ coordinateLL[0] +'&userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fchangingtable.json&language=en#welcome', target: '_blank'}).html($('<img>').attr({src:'https://raw.githubusercontent.com/yopaseopor/osmbabymap/main/src/img/icones/pelele.svg', height: 20, width: 20})));
-		
-		//Mapcomplete salas de lactancia
-		complete.append($('<a>').css('marginLeft', 5).attr({title: 'Alimentación infantil', href: 'https://mapcomplete.org/index.html?z=' + view.getZoom() +'&lat='+ coordinateLL[1] +'&lon='+ coordinateLL[0] +'&userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fbabyfeeding.json&language=en#welcome', target: '_blank'}).html($('<img>').attr({src:'https://raw.githubusercontent.com/yopaseopor/osmbabymap/main/src/img/icones/babyfeeding.svg', height: 20, width: 20})));
+		//Mapcomplete dog-leasure
+		complete.append($('<a>').css('marginLeft', 5).attr({title: 'Perros en ocio', href: 'https://mapcomplete.org/index.html?z=' + view.getZoom() +'&lat='+ coordinateLL[1] +'&lon='+ coordinateLL[0] +'&userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fmoreaboutdogs_leasure.json&language=en#welcome', target: '_blank'}).html($('<img>').attr({src:'https://yopaseopor.github.io/osmpetsmap/src/img/icones/dog_yellow.svg', height: 20, width: 20})));
 		
 		var edit = $('<div>').html(config.i18n.editWith);
 		//@@ID editor
