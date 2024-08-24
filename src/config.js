@@ -441,7 +441,7 @@ style: function (feature) {
 		{
 			group: 'Gos/Dog/Perro',
 			title: 'No info',
-			query: '(node[!dog][shop]({{bbox}});node[!dog][tourism]({{bbox}});node[!dog][amenity]({{bbox}});node[!wheelchair][dog]({{bbox}}););out meta;',
+			query: '(node[!dog][shop]({{bbox}});node[!dog][tourism]({{bbox}});node[!dog][amenity]({{bbox}});node[!dog][leisure]({{bbox}});node[office][!dog]({{bbox}}););out meta;',
 			iconSrc: imgSrc + 'icones/dog_question.svg',
 			iconStyle: 'background-color:rgba(255,255,255,0.4)',
 style: function (feature) {
